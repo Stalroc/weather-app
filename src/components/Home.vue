@@ -22,8 +22,8 @@
                 autocomplete="off"
                 v-model="citySearch"
                 @input="resetError()"
-              />
-              <button type="submit" class="btn__search" title="search">
+              ><!--
+              --><button type="submit" class="btn__search" title="search">
                 <i class="fas fa-search"></i>
               </button>
             </form>
