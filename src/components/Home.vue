@@ -381,6 +381,7 @@ export default {
 
   .weather__container {
     height: 100vh;
+    min-width: 100% !important;
     overflow-y: auto;
   }
 
