@@ -34,3 +34,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Design
+Voici le design de l'application Weather App.
