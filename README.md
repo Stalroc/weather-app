@@ -39,4 +39,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ![design-laptop](https://user-images.githubusercontent.com/41836377/80485836-68691300-895a-11ea-93ce-acf86073bbd4.jpg)
 
-
+![design-smartphone](https://user-images.githubusercontent.com/41836377/80485951-92223a00-895a-11ea-9a42-b21c480680ec.jpg)
