@@ -1,4 +1,4 @@
-# client
+# Weather App
 
 ## Project setup
 ```
