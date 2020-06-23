@@ -42,7 +42,7 @@
           </div>
           <!--Weather content-->
           <div v-if="dataWeather" class="weather__content">
-            <h1 class="weather__location">{{dataWeather.name}}, {{dataWeather.sys.country}}</h1>
+            <h1 class="weather__location">{{dataWeather.name}}, {{dataWeather.sys.country}} </h1>
             <span class="date__today">{{new Date() | moment("dddd, MMMM Do YYYY")}}</span>
             <div class="status__container">
               <img class="weather__icon" :src="searchIcon" :alt="dataWeather.weather[0].main" />
@@ -67,7 +67,7 @@
           <div class="footer">
             <span class="comment">
               Made with ❤️ by
-              <a href="https://github.com/Stalroc" target="_blank">Benjamin Rossin</a>
+              <a href="https://github.com/Stalrock" target="_blank">Benjamin Rossin</a>
             </span>
           </div>
         </div>
@@ -92,6 +92,7 @@ import Loader from "./Loader.vue";
 import api from "../config/api.js";
 import weatherPicture from "../weather.picture.js";
 import axios from "axios";
+
 
 export default {
   name: "Home",
